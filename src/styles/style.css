@@ -1,0 +1,35 @@
+@import url("./global.css");
+
+header{
+
+    display: flex;
+    justify-content: space-around; /* justify-content = cuida da linha horizontal */
+    align-items: center;  /* align-items = cuida da linha vertical */
+    padding: 20px 0px;
+
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.nav-header ul li a{
+    color: var(--color-secondary-black);
+    text-decoration: none;
+    font-family: var(--font-body);   
+    font-size: var(--font-body-size);
+}
+
+.btn-header{
+    background-color: var(--color-primary-orange);
+    color: var(--color-secondary-white);
+    padding: 12px 30px;
+    border-radius: 15px 3px ;
+    text-decoration: none;
+    font-family: var(--font-title);
+    font-size: var(--font-button-size);
+    
+}
