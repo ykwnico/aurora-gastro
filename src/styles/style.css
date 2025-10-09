@@ -145,3 +145,52 @@ h1{
 
 }
 
+.section-featured-dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px 0px;
+    background-color: var(--color-primary-orange-10)
+}
+
+.container-cards-dishes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 101px;
+}
+
+.card-dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 300px;
+    background-color: var(--color-secondary-white);
+    border: 1px solid #D3D3D3;
+    border-radius: 20px 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.09) ;
+    padding: 123px 15px 45px 15px;
+    position: relative;
+}
+
+.card-dishes img{
+    position: absolute;
+    top: -101px;
+}
+
+.card-dishes h3{
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title);
+    width: 174px;
+}
+
+.card-dishes p{
+    font-size: var(--font-body-size);
+    font-family: var(--font-body);
+    line-height: 30px;
+    color: var(--color-secondary-l-gray);
+    width: 271px;
+}
