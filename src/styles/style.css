@@ -218,3 +218,50 @@ h1{
     display: flex;
     gap: 29px;
 }
+
+.section-our-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px;
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+}
+
+.container-reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 20px;
+    background-color: var(--color-secondary-white);
+    border-radius: 40px 8px;
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0,0.25)
+}
+
+.client-review{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.client-name h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h4-size);
+}
+
+.card-reviews p{
+    font-family: var(--font-body);
+    width: 358px;
+}
