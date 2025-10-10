@@ -265,3 +265,61 @@ h1{
     font-family: var(--font-body);
     width: 358px;
 }
+
+.section-reservation{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 0px;
+}
+
+.container-reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-input label{
+    font-family: var(--font-body);
+}
+
+.box-input input{
+    border: 1px solid #5C6574;
+    height: 35px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.container-box-input{
+    display: flex;
+    gap: 10px;
+}
+
+.container-box-input input{
+    width: 220px;
+}
+
+textarea{
+    border: 1px solid #5C6574;
+    height: 100px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+form button{
+    align-self: flex-start;
+    cursor: pointer;
+}
