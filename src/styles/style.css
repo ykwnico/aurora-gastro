@@ -269,6 +269,7 @@ h1{
 .section-reservation{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 25px;
     padding: 60px 0px;
 }
@@ -322,4 +323,16 @@ textarea{
 form button{
     align-self: flex-start;
     cursor: pointer;
+}
+
+.section-maps{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
+}
+
+.section-maps iframe{
+    width: 80%;
+    height: 60vh;
 }
